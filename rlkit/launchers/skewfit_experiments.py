@@ -209,7 +209,7 @@ def generate_vae_dataset(variant):
             now = time.time()
 
             if env_id is not None:
-                import gym
+                import gymnasium as gym
                 import multiworld
                 multiworld.register_all_envs()
                 env = gym.make(env_id)

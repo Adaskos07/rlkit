@@ -1,6 +1,5 @@
 import numpy as np
-from gym import spaces
-from gym import Env
+from gymnasium import spaces, Env
 
 
 class PointEnv(Env):

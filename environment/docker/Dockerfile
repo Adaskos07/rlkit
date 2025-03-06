@@ -85,7 +85,7 @@ RUN pip install sphinx_rtd_theme
 RUN pip install numpydoc
 RUN pip install cloudpickle==0.5.2
 RUN pip install cached-property==1.3.1
-RUN pip install gym[all]==0.10.5
+RUN pip install gymnasium[all]==1.1.0
 RUN pip install gitpython==2.1.7
 RUN pip install gtimer==1.0.0b5
 RUN pip install awscli==1.11.179
